@@ -15,55 +15,17 @@ a{
 
 /*main page*/
 #main{
-    width: 100%;
-    height: 100vh; /*viewport height*/
-    box-sizing: border-box;
     background-color: #edf1fd;
+    border: 4px solid red ;
+}
+
+#main img{
+    max-width: 100%;
+    height: auto;
     position: relative;
+    border: 4px solid red ;
 }
 
-.container {
-    width: 100%;
-    height: 100vh; /*viewport height*/
-}
-
-/*customize size of the image*/
-.bg img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 590px;
-    height: 944px;
-    opacity: 0.9;
-}
-
-
-/*navigation bar*/
-nav{
-    /*display */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box; /*border-box include border, margin, padding*/
-    padding: 10px 50px; /*Up & right: 10px Down & left: 50px*/
-    
-    /*position*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1; /*to the front*/
-
-    /*color*/
-    background-color: #f4f7ff;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.05); /*small white line below the nav*/
-
-
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
-}
 
 /*menu*/
 .menu {
@@ -74,52 +36,9 @@ nav{
     /*color*/
 }
 
-/*menu listed and a part*/
-.menu li a{
-    /*display */
-    padding: 10px 15px;
-    
-    /*text*/
-    font-size: 12px;
-    /*color*/
-    color: #6c707c;
 
-}
 
-.lang .theme{
-    color: #292929;
-}
 
-.logo{
-    /*text*/
-    font-size: 25px;
-    font-weight: bold;
-    color: #292929;
-    font-family: Poppins;
-}
-
-/*creating square transition menu*/
-.menu li a:hover,active{ /*correspond with li and a*/
-    /*color*/
-    background-color: #292929;
-    color:#FFFFFF !important;
-    /*text*/
-    font-weight: 600;
-    /*transition*/
-    transition: all ease 0.5s
-}
-
-.name{
-    /*position*/
-    position: absolute;
-    right: 20%;
-    bottom: 20%;
-    transform: translate(-20%,-50%);
-    /*font*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: auto;
-    z-index: 1;
-}
 
 /*specify the paragraph part*/
 .name p:nth-child(1), .name .details{
@@ -135,29 +54,6 @@ nav{
     color: #292929;
 }
 
-/*define button*/
-.cv-btn{
-    /*create a square button*/
-    width: 200px;
-    height: 45px;
-    /*display*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*color*/
-    background-color: #292929;
-    color:#FFFFFF;
-    /*font*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/*add effect*/
-.cv-btn a:hover{
-     /*color*/
-    background-color:#131313 ;
-    transition: all ease 0.5s;
-}
 
 
 /*social*/
@@ -185,33 +81,67 @@ nav{
     transition: all ease 0.5s;
 }
 
-/*create an arrow*/
-.arrow {
-    
-    width: 50%;
-    height: 15%;
-    margin-bottom: 4em;
-    position:absolute;
-    bottom: 0px;
-    left: -3%;
-}
-
-.arrow::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 20px;
-    border-color: #292929 transparent transparent transparent;
-    right: -10em;
-    bottom: -50px;
-}
-
 
 
 /*about me part*/
+#about {
 
-.intro{
-    padding-top: 50px;
+    border: 1px solid white;
 }
+
+#about .container{
+
+    border: 1px solid white;
+}
+
+#about img{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    right: 0%;
+
+    border: 1px solid white;
+}
+
+#one {
+    font-size: 20px;
+    position: relative;
+    top: 0%;
+    left: 15%;
+    box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 45%;
+    
+    border: 1px solid white;
+}
+
+
+#about h1{
+    position: relative;
+    left: 7%;
+}
+
+#about button{
+    position: relative;
+    left: 19%;
+}
+
+.sec-paragraph{
+    margin-top:100px;
+}
+
+.txt-2{
+    color: #ffffff;
+    font-size: 32px;
+    box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
+    border: 1px solid white;
+    width: 70%;
+    /*positioning*/
+    position: relative;
+    left: 20%;
+}
+
+
