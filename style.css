@@ -1,8 +1,20 @@
+
+/*custom green color*/
 .home .textHome h1 span{
     color: #00bcd4;
  
     font-weight: 700;
 }
+
+.navbar{
+  background-color:#17252A;
+}
+
+.services {
+  background-color: #486069;
+}
+
+.contact
 
 
 /*fade in effect*/
@@ -23,4 +35,8 @@
   .service-item .cpp-icon {
     width: 30px;
     height: 30px;
+  }
+
+  body{
+    scroll-behavior: smooth;
   }
