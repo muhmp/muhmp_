@@ -1,170 +1,26 @@
-body{
-    /*set default margin and padding*/
-    margin: 0px;
-    padding: 0px;
-    background-color: #161616; /*set black background as a main*/
-}
-
-/* Portrait tablets and small desktops */
-
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-    img{
-        display: none;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    img{
-        display: none;
-    }
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-
-}
-
-
-
-ul{
-    list-style: none; /*removing the dot*/
-}
-
-a{
-    text-decoration: none;
-}
-
-/*main page*/
-#main{
-    background-color: #edf1fd;
-    border: 4px solid red ;
-}
-
-#main img{
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    border: 4px solid red ;
-    object-fit: cover;
-}
-
-
-/*menu*/
-.menu {
-    /*display */
-    display: flex;
-    /*text*/
-    /*position*/
-    /*color*/
-}
-
-
-/*specify the paragraph part*/
-.name p:nth-child(1), .name .details{
-    color: #6c707c;
-    font-size: 32px;
-}
-
-/*specify h1*/
-.name h1{
-    /*font*/
-    font-size: 40px;
-    letter-spacing: 3px;
-    color: #292929;
-}
-
-
-
-/*social*/
-.social {
-    /*position*/
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-}
-
-/*modified the icon */
-.social a {
-    margin: 6px 12px;
-}
-
-.social i {
-    color: rgba(18,17,17,0.5);
-    font-size: 32px;
-}
-
-/*effect for the icon*/
-.social a:hover i { /*why*/
+.home .textHome h1 span{
     color: #00bcd4;
-    transition: all ease 0.5s;
+ 
+    font-weight: 700;
 }
 
 
+/*fade in effect*/
+.home{
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+  }
 
-/*about me part*/
-#about {
-
-    border: 1px solid white;
-}
-
-#about .container{
-
-    border: 1px solid white;
-}
-
-#about img{
-    width: 500px;
-    height: 400px;
-    position: relative;
-    right: 0%;
-
-    border: 1px solid white;
-}
-
-#one {
-    font-size: 20px;
-    position: relative;
-    top: 0%;
-    left: 15%;
-    box-sizing: border-box;
-    text-align: justify;
-    text-justify: inter-word;
-    width: 45%;
-    
-    border: 1px solid white;
-}
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
 
-#about button{
-    position: relative;
-    left: 19%;
-}
-
-.sec-paragraph{
-    margin-top:100px;
-}
-
-.txt-2{
-    color: #ffffff;
-    font-size: 32px;
-    box-sizing: border-box;
-    text-align: justify;
-    text-justify: inter-word;
-    border: 1px solid white;
-    width: 70%;
-    /*positioning*/
-    position: relative;
-    left: 20%;
-}
+  .service-item .cpp-icon {
+    width: 30px;
+    height: 30px;
+  }

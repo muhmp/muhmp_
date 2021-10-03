@@ -1,144 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!--import part-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Mappanyompa</title>
     <!--css-->
     <link rel="stylesheet" href="/style.css">
-
-    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">  
-    <!--font awesome-->
-    <script src="https://kit.fontawesome.com/066c499589.js" crossorigin="anonymous"></script>
+     <!--font awesome-->
+     <script src="https://kit.fontawesome.com/066c499589.js" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
-    <!--1.navbar-->
-    <!--nav.navbar.navbar-expand-lg.bg-dark.navbar-dark : shortcut-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
-        <div class="container ">
 
-                <button class="navbar-toggler" type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navmenu">
+  <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+        <div class="container-fluid"> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-            <!--shortcut for creating collapse navbar: .collapse.navbar-collapse-->
-            <div class="collapse navbar-collapse" id="navmenu">
-                <!--ms-auto : moving section by spaced div-->
-                <div class="navbar-nav ms-auto "></div>
-                <!--Ul and li part-->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Portofolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio & Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
 
+          </div>
         </div>
-    </nav>
+      </nav>
+    <!--navigation bar end-->
 
 
-        <!--main section-->
-        <section class="section mt-5" id="main">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="bgimg">
-                    <img alt="background" class="img-fluid rounded-start" src="/images/bg.JPG" />
-                  </div>
+    <!--Home-->
+    <section id="home py-5" class="home">
+      <div class="container-lg"> <!--container-->
+        
+          <!--grid system-->
+          <div class="row min-vh-100 align-items-center align-content-center"><!--row--> 
+              <!--column for image-->
+              <div class="col-md-6 mt-5 mt-md-0"> <!--column medium 6-->
+                <div class="ImgHome text-center">
+                  <img src="/images/bg5.png" class="rounded-circle mw-100" alt="profile-img">
                 </div>
-                <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
-                    <div> 
+              </div>
 
-                        <div class="name">
-                            <h2>Hello,</h2>
-                            <h1>I'm <font color ="#00bcd4"> Muhammad</font> | マメット</h1>
-                            <p class="details margin-top-s">I'm a Junior web developer.</p>
-                        </div>
+              <!--column for text-->
+              <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="textHome">
+                  <p class="text-muted mb-1 "><span>Hello</span> , I'm</p>
+                  <h1> <span>Muhammad </span> | マメット</h1>
+                  <h2 class="mt-2 fs-4 text-muted">I'm a Junior Front-end developer</h2> <!--fs: font size mt:margin text-->
+                  <p class="text-muted mb-1 ">Born in 🇸🇦 | Indonesian 🇮🇩 | Currently in Japan 🇯🇵 </p>
+                  <a href="#about" class="btn btn-dark px-3 mt-3">About Me</a>
+                </div>
+              </div>
+           </div>
+      </div>
+    </section>
+    <!--Home end section-->
+    
+    <!--About part-->
+    <section class="about bg-light" id="about">
+      <div class="container-lg">
+                <!--center title-->
+          <div class="row justify-content-center"><!--center contentrow-->
+            <div class="col-lg-8">
+              <div class="about-title text-center py-3">
+                <h2 class="fw-bold mb-2">About Me</h2>
+              </div>
+            </div>  
+          </div>
 
-                        <!--social-->
-                        <div class="social">
-                            <a href="#"> <i class="fab fa-instagram"></i></a>
-                            <a href="#"> <i class="fab fa-linkedin"></i></a>
-                            <a href="#"> <i class="fab fa-twitter"></i></a>
-                            <a href="#"> <i class="fab fa-youtube"></i></a>
-                        </div>
-                  </div>
+          <!--grid system row and column-->
+          <div class="row py-5">
+            <div class="col-md-6">
+              <div class="aboutImg px-5">
+               <img src="./images/bg3.jpg" alt="photo-2" class="img-fluid rounded-start rounded-end img-thumbnail">
+                 </div>
+            <!--text column-->
+            </div>
+            <div class="col-md-6">
+              <div class="aboutText text-justify">
+               <p class="fs-4 mb-2">Junior front-end web developer & Junior software engineer. Graduated in Hasanuddin University majoring in Computer Science and Master degree in 九州工業大学| Kyushu Institute of Technology focusing on Computer Graphics.</p>
+                <p class="fs-5 text-muted">Previously I was concentrated in in computer graphics with interactive human motion animation topic around 2 years of experience. Now I'm focusing on become a Fullstack website developer engineer. I just learned about front end for about 6 months independently and targeting my goal as a fullstack developer in the future.</p>
+               
+               <div class="col-lg-12 d-flex align-item-center">
+                    <a href="#" class="btn btn-primary px-3 mt-3 me-3">Check out my CV</a>
+                    <div class="social-links  mt-2  fa-2x">
+                      <a href="#"class="text-dark me-2"> <i class="fab fa-instagram "></i></a>
+                      <a href="#"class="text-dark me-2"> <i class="fab fa-linkedin"></i></a>
+                      <a href="#"class="text-dark me-2"> <i class="fab fa-twitter"></i></a>
+                      <a href="#"class="text-dark me-2"> <i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div> 
+      </div>
+    </section>
+    <!--About end part-->
 
-        <!--about section & What I do-->
-        <section class="bg-dark p-5" id="about">
-            <div class="container">
-                <h1 class="text-light text-center text-justify">About <span class="text-warning">Me</span> </h1>
-                <img src="/images/bg1.jpg" class=" img-responsive rounded-start rounded-end float-end" alt="bg1">
-                <p id="one" class="text-white text-justify p-5 ">Junior front-end web developer & Junior software engineer. 
-                    Graduated in Hasanuddin University majoring in Computer Science and Master degree in 九州工業大学| Kyushu Institute of Technology focusing on Computer Graphics. 
-                </p>
-                <button type="button" class="btn-primary btn-lg ">Check out my CV</button>
-               
-                <div class="sec-paragraph">
-                    <h1 class="text-light text-center text-justify">What I <span class="text-warning">Do</span></h1>
-                    <p class="txt-2 text-center text-justify text-light">Previously I was concentrated in in computer graphics with interactive human motion animation topic around 2 years of experience. Now
-                        I'm focusing on become a Fullstack website developer engineer. I just learned about front end for about 6 months independently and targeting my goal as a fullstack developer in the future.
-                    </p>
+    <!--services part-->
+    <section class="services" id="services">
+      <div class="container-lg py-4">
+          <!--center title-->
+          <div class="row justify-content-center"><!--center contentrow-->
+            <div class="col-lg-8">
+              <div class="service-title text-center py-2">
+                <h2 class="fw-bold mb-5">Skills & Tools</h2>
+              </div>
+            </div>  
+          </div>
+
+          <!--col and row for content-->
+          <div class="row text-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                 <div class="icon my-3 text-danger fs-2">
+                   <i class="fab fa-html5"></i>
+                   <i class="fab fa-css3-alt"></i>
+                   <i class="fab fa-bootstrap"></i>
+                   <i class="fab fa-sass"></i>
+                   <i class="fab fa-js"></i>
+                   <i class="fab fa-react"></i>
+                   <i class="fab fa-php"></i>
+                 </div>
+                 <h3 class="fs-4 py-1">Web Development</h3>
+                 <p class="text-muted"></p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                 <div class="icon my-3 text-danger fs-2">
+                  <i class="fab fa-java"></i>
+                  <i class="fab fa-python"></i>
+                 
+                 </div>
+                 <h3 class="fs-4 py-1">Programming languages</h3>
+                 <p class="text-muted"></p>
+              </div>
+            </div>
+            
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                 <div class="icon my-3 text-danger fs-2">
+                  <i class="fab fa-github"></i>
+                  <i class="fab fa-git-alt"></i>
+                  <i class="fas fa-terminal"></i>
+                 </div>
+                 <h3 class="fs-4 py-1">Utilities & Tools</h3>
+                 <p class="text-muted"></p>
+              </div>
+            </div>
+          </div>
+
+
+            <!--second part-->
+          <!--center title-->
+          <div class="row"><!--center contentrow-->
+            <div class="col-lg-8">
+              <div class="service-title text-left py-4">
+                <h2 class="fw-bold mb-3 text-left">Currently Working on:</h2>
+                <p class="text-left"> imporving my skills & building portofolios</p>
+              </div>
+            </div>  
+          </div>
+      </div>
+    </section>
+  <!--service part end-->
+
+
+    <!--portofolio-->
+    <section class="portofolio  py-5 bg-light" id="portofolio">
+      <div class="container-lg py-4">
+                  <!--center title-->
+                  <div class="row justify-content-center"><!--center contentrow-->
+                    <div class="col-lg-8">
+                      <div class="service-title text-center">
+                        <h2 class="fw-bold mb-5">Portofolio</h2>
+                      </div>
+                    </div> 
+                  </div> 
+                    <!--content-->
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4">
+                        <div class="portofolio-item">
+                          <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
+                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4">
+                        <div class="portofolio-item">
+                          <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
+                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                        <div class="portofolio-item">
+                          <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
+                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                        </div>
+                      </div>
+               </div>
+      </section>
+<!--portofolio end part-->
+
+
+      <!--8. Map and contact info-->
+      <section class="p-5 bg-white">
+        <div class="container-lg">
+            <div class="row g-4">
+
+                <div class="row justify-content-center"><!--center contentrow-->
+                    <div class="col-lg-8">
+                      <div class="service-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                      </div>
+                    </div> 
+                  </div> 
+
+                  <div class="row">
+                    <div class="col-lg-6 col-lg-4">
+                      <div class="contact-info">
+
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail: </span> muhmappanyompa.306@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                          <span class="fw-bold">Phone: </span> +818081818209
+                        </li>
+                        <li class="list-group-item">
+                          <span class="fw-bold">Location: </span> 福岡県福岡市東区原田１丁目４２
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </section>
+                    </div>
 
-        <!--Project-->
-        <section>
+
+                <!--map-->
+                <div class="col-lg">
+                  <div id="map"></div>
+                </div>
+                
+                  </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--contact end-->
+
+          <!--9.Footer-->
+          <footer class="p-5 bg-dark text-white text-center position-relative">
             <div class="container">
-                <h1 class="text-dark">Projects</h1>
+                <p class="lead">Copyright &copy; Muhammad Mappanyompa</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
             </div>
-        </section>
-
-        <!--Websites created (animation)-->
-        <section class="bg-dark">
-            <div class="container">
-                <h1 class="text-light">Websites created using</h1>
-            </div>
-        </section>
-
-         <!--address and contact form-->
-         <section class="bg-dark">
-            <div class="container">
-                <h1 class="text-light">address</h1>
-            </div>
-        </section>
-
-
-         <!--footer and closing-->
-         <section class="bg-dark">
-            <div class="container">
-                <h1 class="text-light">footer and closing</h1>
-            </div>
-        </section>
+          </footer>
 
 
 
-        <!--Bootstrap bundle-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-    </body>
+    <!--mapbox-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+     <script>
+       mapboxgl.accessToken = 'pk.eyJ1IjoibXVobXAiLCJhIjoiY2t0c3NtdzRnMTFiODJvbXhrdGJ0anI2ciJ9.hmiEaFBMoDOoqK2HYbEM3g';
+           var map = new mapboxgl.Map({
+           container: 'map',
+           style: 'mapbox://styles/mapbox/streets-v11',
+           center:[130.399994, 33.583332],
+           zoom: 13,
+           });
+   </script>
+    <!--bootstrap bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
 </html>
