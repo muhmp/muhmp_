@@ -73,6 +73,7 @@ font-family: 'Crimson Text', serif;
 li a:hover {
   background-color: rgb(31, 67, 57);
   border-bottom:0.5px solid #fff;
+  z-index: 3;
 }
 
 
@@ -182,4 +183,7 @@ li a:hover {
 }
 
 
- 
+ /*navbar toggle*/
+ .navbar-toggler{
+   z-index: 2;
+ }
