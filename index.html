@@ -15,7 +15,7 @@
 <body>
 
   <!--navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top py-1">
         <div class="container-fluid"> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,10 +31,13 @@
                 <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">Tools</a>
+                <a class="nav-link" href="#services">Skills &Tools</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#portofolio">Projects & Portofolios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#photo">My Photography</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -82,7 +85,7 @@
           <div class="row justify-content-center"><!--center contentrow-->
             <div class="col-lg-8">
               <div class="about-title text-center py-3">
-                <h2 class="fw-bold mb-2">About Me</h2>
+                <h2 class="font-title fw-bold fs-1 mb-2">About Me</h2>
               </div>
             </div>  
           </div>
@@ -91,19 +94,19 @@
           <div class="row py-0">
             <div class="col-md-6">
               <div class="aboutImg">
-               <img src="./images/bg3.jpg" alt="photo-2" class="img-fluid rounded-start rounded-end img-thumbnail">
+               <img src="./images/bg3-1.JPG" alt="photo-2" class="img-fluid rounded-start rounded-end img-thumbnail">
                  </div>
             <!--text column-->
             </div>
             <div class="col-md-6">
-              <div class="aboutText text-justify py-2">
-               <p class="fs-5 mb-2 text-justify">Junior web developer & Junior software engineer. 
-                 Graduated from Hasanuddin University majoring in Computer Science and Master degree in 九州工業大学| Kyushu Institute of Technology focusing on Computer Graphics.</p>
-                <p class="fs-5 text-muted">Previously concentrated in Computer Graphics: Interactive Human Motion Animation topic around 2 years of experience.</p>
-                <p class="fs-5 text-muted">Nowadays focusing on becoming a Fullstack website developer engineer. Just learned web development around 6 months independently and targeting my goal as a full-stack engineer in the future.</p>
+              <div class="aboutText py-2">
+               <p>Junior web developer & Junior software engineer. 
+                 Graduated from <strong> Hasanuddin University</strong> majoring in Computer Science and Master degree in <strong> 九州工業大学| Kyushu Institute of Technology </strong> focusing on Computer Graphics.</p>
+                <p class="text-muted">Previously concentrated in <strong>Computer Graphics: <em>Interactive Human Motion Animation </em> </strong>  topic around 2 years of experience.</p>
+                <p class=" text-muted">Nowadays focusing on becoming <strong> Fullstack website developer engineer </strong>. Just learned web development around 6 months independently and targeting my goal as a <strong>full-stack engineer </strong>  in the future.</p>
                
                <div class="col-lg-12 d-flex align-item-center py-2">
-                    <a href="/CV 2021 - Muhammad Mappanyompa.pdf" target="_blank" class="btn btn-primary fa-md">Check out my CV</a>
+                    <a href="/CV 2021 - Muhammad Mappanyompa.pdf" target="_blank" class="custom-font  btn btn-primary fa-md">Check out my CV</a>
                     <div class="social-links  px-2  fa-2x">
                       <a href="https://www.instagram.com/muhmp_/" target="_blank" class="text-dark me-2"> <i class="fab fa-instagram "></i></a>
                       <a href="https://www.linkedin.com/in/muhmp/" target="_blank" class="text-dark me-2"> <i class="fab fa-linkedin"></i></a>
@@ -119,13 +122,14 @@
     <!--About end part-->
 
     <!--services part-->
-    <section class="services bg-dark text-white" id="services">
-      <div class="container-lg py-4">
+    <section class="services  text-white" id="services">
+      <div class="container-lg py-5">
           <!--center title-->
           <div class="row justify-content-center"><!--center contentrow-->
             <div class="col-lg-8">
               <div class="service-title text-center py-2">
-                <h2 class="fw-bold mb-5">Skills & Tools</h2>
+                <h2 class="font-title fs-1 fw-bold">Skills & Tools</h2>
+                <h5 class="custom-font">Technologies, abilities, and tools that I expertise: </h5>
               </div>
             </div>  
           </div>
@@ -143,7 +147,7 @@
                    <i class="fab fa-react"></i>
                    <i class="fab fa-php"></i>
                  </div>
-                 <h3 class="fs-4 py-1 text-dark">Web Development</h3>
+                 <h3 class=" custom-font fs-4 py-1 text-dark">Web Development</h3>
                  <p class="text-muted"></p>
               </div>
             </div>
@@ -155,7 +159,7 @@
                   <i class="fab fa-python"></i>
                  
                  </div>
-                 <h3 class="fs-4 py-1 text-dark">Programming languages</h3>
+                 <h3 class="custom-font fs-4 py-1 text-dark">Programming languages</h3>
                  <p class="text-muted"></p>
               </div>
             </div>
@@ -168,7 +172,7 @@
                   <i class="fab fa-git-alt"></i>
                   <i class="fas fa-terminal"></i>
                  </div>
-                 <h3 class="fs-4 py-1 text-dark">Utilities & Tools</h3>
+                 <h3 class="custom-font fs-4 py-1 text-dark">Utilities & Tools</h3>
                  <p class="text-muted"></p>
               </div>
             </div>
@@ -180,8 +184,8 @@
           <div class="row"><!--center contentrow-->
             <div class="col-lg-8">
               <div class="service-title text-left py-4">
-                <h2 class="fw-bold mb-3 text-left">Currently Working on:</h2>
-                <p class="text-muted text-left"> Imporving my skills & building portofolios. Check out my repositories on my <span> <a href="https://github.com/muhmp" target="_blank" class="text-danger text-decoration-none">Github</a></span></p>
+                <h2 class="font-title fw-bold mb-3 text-left">Currently Working on:</h2>
+                <p class="custom-font"> Improving my skills & building portofolios. Check out my repositories on my <span> <a href="https://github.com/muhmp" target="_blank" class="text-danger text-decoration-none">Github</a></span></p>
               </div>
             </div>  
           </div>
@@ -191,13 +195,15 @@
 
 
     <!--portofolio-->
-    <section class="portofolio  py-3 bg-light" id="portofolio">
+    <section class="portofolio  py-5 bg-light" id="portofolio">
       <div class="container-lg py-4">
                   <!--center title-->
                   <div class="row justify-content-center"><!--center contentrow-->
                     <div class="col-lg-8">
                       <div class="service-title text-center">
-                        <h2 class="fw-bold mb-5">Projects & Portofolio</h2>
+                        <h2 class="font-title  fs-1 fw-bold mb-3">Projects & Portofolio</h2>
+                        <h5 class="custom-font">Some of the things I've made </h5>
+            
                       </div>
                     </div> 
                   </div> 
@@ -206,23 +212,23 @@
                       <div class="col-md-6 col-lg-4">
                         <div class="portofolio-item">
                           <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
-                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
-                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                          <h3 class=" custom-font text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="custom-font text-danger text-decoration-none">View repo</a></p>
                         </div>
                       </div>
                       <div class="col-md-6 col-lg-4">
                         <div class="portofolio-item">
                           <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
-                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
-                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                          <h3 class="custom-font text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="custom-font text-danger text-decoration-none">View repo</a></p>
                         </div>
                       </div>
 
                       <div class="col-md-6 col-lg-4">
                         <div class="portofolio-item">
                           <img src="/images/port1.JPG" class="w-100 img-thumbnail" alt="portofolio">
-                          <h3 class="text-capitalize fs-5 my-2">Computer Animation Technique</h3>
-                          <p class="mb-4"><a href="#" class="text-danger text-decoration-none">View repo</a></p>
+                          <h3 class="custom-font text-capitalize fs-5 my-2">Computer Animation Technique</h3>
+                          <p class="mb-4"><a href="#" class="custom-font text-danger text-decoration-none">View repo</a></p>
                         </div>
                       </div>
                </div>
@@ -230,6 +236,69 @@
     <!--portofolio end part-->
 
 
+            <!--Photography section-->
+            <section class="photo py-5" id="photo">
+              <div class="title text-center py-2">
+                  <h2 class="font-title fs-1 fw-bold">Photography</h2>
+                  <h5 class="custom-font">My photography collections </h5>
+            
+              </div>
+              <div class="content py-2">
+                <!--images-->
+                  <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img2.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Fukuoka Tower</h3> 
+                      </div>
+                  </div>
+                  <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img3.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Hakata Station</h3> 
+                      </div>
+                  </div> <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img4.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Kyutech | snow</h3> 
+                      </div>
+                  </div> <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img5.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Tenjin | Fukuoka</h3> 
+                      </div>
+                  </div> <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img6.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Hakata Station</h3> 
+                      </div>
+                  </div> <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img7.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Cherry Blossoms</h3> 
+                      </div>
+                  </div> <div class="workBx">
+                      <div class="imgBx">
+                          <img src="images/img8.jpg">
+                      </div>
+                      <div class="textBx">
+                          <h3>Kyoto</h3> 
+                      </div>
+                  </div>
+              </div>
+        </section>
+  
       <!--8. Map and contact info-->
       <section class="p-5 bg-white" id="contact">
         <div class="container-lg">
@@ -238,7 +307,8 @@
                 <div class="row justify-content-center"><!--center contentrow-->
                     <div class="col-lg-8">
                       <div class="service-title text-center">
-                        <h2 class="fw-bold mb-3">Contact Me</h2>
+                        <h2 class="font-title fs-1 fw-bold ">Contact Me</h2>
+                        <h5 class="custom-font py-2">Get in touch</h5>
                       </div>
                     </div> 
                   </div> 
@@ -275,6 +345,10 @@
       </section>
     <!--contact end-->
 
+
+
+
+
       <!--9.Footer-->
       <footer class="p-2 bg-dark text-white text-center position-relative">
             <div class="container">
@@ -286,6 +360,11 @@
       </footer>
 
 
+            
+          </div>
+        </div>
+      </section>
+
 
     <!--mapbox-->
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
@@ -294,7 +373,7 @@
            var map = new mapboxgl.Map({
            container: 'map',
            style: 'mapbox://styles/mapbox/streets-v11',
-           center:[130.399994, 33.583332],
+           center:[130.429994, 33.623332],
            zoom: 13,
            });
    </script>
