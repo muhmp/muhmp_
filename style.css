@@ -24,7 +24,7 @@ font-family: 'Crimson Text', serif;
 
 
 /*fade in effect*/
-.home{
+.home , .textHome{
     animation: fadeIn 1.5s;
     -webkit-animation: fadeIn 1.5s;
     -moz-animation: fadeIn 1.5s;
@@ -38,7 +38,7 @@ font-family: 'Crimson Text', serif;
   }
 
 /*text effect slide from Y*/
-@keyframes slide-in {
+@keyframes slide-in{
   from {
     transform: translateY(-100%);
   }
@@ -49,16 +49,6 @@ font-family: 'Crimson Text', serif;
 
 .textHome{
   animation: slide-in 1000ms;
-}
-
-/*slide left*/
-@keyframes slide-left {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translate(0%);
-  }
 }
 
 /*navbar underline effect*/
