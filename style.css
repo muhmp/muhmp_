@@ -178,3 +178,27 @@ li a:hover {
    z-index: 2;
  }
 
+
+
+
+/*portfolio part*/
+.card{
+background-color: transparent;
+    border: none;
+}
+
+.card-wrapper {
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+  transition: box-shadow 0.3s;
+}
+
+.card-img {
+  width: auto;
+}
+
+.card-img {
+  text-align: center;
+  flex-shrink: 0;
+}
