@@ -1,471 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Mappanyompa</title>
-    <!--css-->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-     <!--font awesome-->
-     <script src="https://kit.fontawesome.com/066c499589.js" crossorigin="anonymous"></script>
 
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Muhammad Mappanyompa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logow.jpg" rel="icon">
+  <link href="assets/img/logow.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/066c499589.js" crossorigin="anonymous"></script>
+
+  <!--fizzed icon-->
+  <link rel="stylesheet" href="/assets/font-mfizz-2.4.1/font-mfizz.css">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.5.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
 
-  <!--navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top py-1">
-        <div class="container-fluid"> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            
-            <ul class="navbar-nav py-2">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Skills & Tools</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Projects & Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#photo">Photography</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
+      <div class="profile">
+        <img src="assets/img/bg1.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Muhammad Mappanyompa</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/muhmp/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/muhmp" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/muhmp_/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://twitter.com/muhmp_" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/m.mappanyompa/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#photo" class="nav-link scrollto"><i class="bx bx-camera"></i> <span>Photography</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Muhammad Mappanyompa</h1>
+      <p>I'm <span class="typed" data-typed-items="Computer Scientist, Web Designer, Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Indonesian nationality. Born and raised in Makkah, Saudi Arabia.
+            I completed my bachelor's degree in computer science and my master's degree in the research of computer graphics. Currently studying Japanese language at a Japanese language school.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/bg1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Biography </h3>
+            <p class="fst-italic"> </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>November 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>Indonesia</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Current City:</strong> <span>Fukuoka, Japan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
+                 <li><i class="bi bi-chevron-right"></i> <strong>Hobby:</strong> <span>Programming, Travelling, Video games</span></li>
+                </ul>
+              </div>
+            </div>
+            <p></p>
           </div>
         </div>
-      </nav>
-    <!--navigation bar end-->
 
-
-    <!--Home-->
-    <section id="home" class="home py-4">
-
-      <div class="container-lg"> <!--container-->
-        
-          <!--grid system-->
-          <div class="row min-vh-100 align-items-center align-content-center py-3"><!--row--> 
-              <!--column for image-->
-              <div class="col-md-6 mt-5 mt-md-0"> <!--column medium 6-->
-                <div class="ImgHome text-center">
-                  <img src="images/bg1.jpg" class="rounded-circle mw-100 " alt="profile">
-                </div>
-              </div>
-              <!--column for text-->
-              <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-                <div class="textHome">
-                  <p class="text-muted mb-1 "><span>Hello</span> , I'm</p>
-                  <h1> <span>Muhammad </span> | マメット</h1>
-                  <h2 class="mt-2 fs-4 text-muted">Computer Scientist</h2> <!--fs: font size mt:margin text-->
-                  <p class="text-muted mb-1 ">Born in 🇸🇦 | Indonesian 🇮🇩 | Currently in Japan 🇯🇵 </p>
-
-                </div>
-              </div>
-           </div>
       </div>
-    </section>
-    <!--Home end section-->
-    
-    <!--About part-->
-    <section class="about bg-light py-5" id="about">
-      <div class="container-lg py-2">
-                <!--center title-->
-          <div class="row justify-content-center"><!--center contentrow-->
-            <div class="col-lg-8">
-              <div class="about-title text-center py-3">
-                <h2 class="font-title fw-bold fs-1 mb-2">About Me</h2>
-              </div>
-            </div>  
-          </div>
+    </section><!-- End About Section -->
 
-          <!--grid system row and column-->
-          <div class="row py-0">
-            <div class="col-md-6">
-              <div class="aboutImg py-3">
-               <img src="./images/bg3-1.JPG" alt="photo-2" class="img-fluid rounded-start rounded-end img-thumbnail">
-                 </div>
-            <!--text column-->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Technologies, abilities, and tools that I expertise:</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill fs-6">Web Design/Front-end</span>
+              <div class="icon text-danger fs-4">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+              </div>
             </div>
-            <div class="col-md-5">
-              <div class="aboutText py-3 text-muted">
-               <p>Recent graduate majoring in computer science and computer engineering with a passion for software
-                development, computer graphics & self-taught web development front-end part. Graduated from <strong> Hasanuddin University</strong> majoring in Computer Science and Master degree in <strong> 九州工業大学| Kyushu Institute of Technology </strong> focusing on Computer Graphics.</p>
-                <p class=" text-muted">Focusing on becoming <strong> Fullstack website developer engineer </strong> or <strong>Fullstack software developer</strong>.
-               <div class="col-lg-12 d-flex align-item-center py-2">
-                    <a href="https://github.com/muhmp/muhmp_/blob/main/Resume%20v3_Muhammad%20Mappanyompa_2021.pdf" target="_blank" class="custom-font  btn btn-primary fa-md">My Resume</a>
-                    <div class="social-links  px-2  fa-2x">
-                      <a href="https://www.instagram.com/muhmp_/" target="_blank" class="text-dark me-2"> <i class="fab fa-instagram "></i></a>
-                      <a href="https://www.linkedin.com/in/muhmp/" target="_blank" class="text-dark me-2"> <i class="fab fa-linkedin"></i></a>
-                      <a href="https://twitter.com/muhmp_" target="_blank" class="text-dark me-2"> <i class="fab fa-twitter"></i></a>
-                      <a href="https://www.youtube.com/channel/UCJpVwmNEg47jn7Vqz_f3IDg" target="_blank" class="text-dark me-2"> <i class="fab fa-youtube"></i></a>
-                    </div>
+
+            <div class="progress">
+              <span class="skill fs-6">Backend</span>
+              <div class="icon text-danger fs-4">
+                <i class="icon-laravel"></i>
+                <i class="fab fa-php"></i>
                 </div>
-              </div>
             </div>
-          </div> 
-      </div>
-    </section>
-    <!--About end part-->
 
-    <!--services part-->
-    <section class="services text-white mb-5 py-5" id="services">
-      <div class="container-lg py-5">
-          <!--center title-->
-          <div class="row justify-content-center"><!--center contentrow-->
-            <div class="col-lg-8">
-              <div class="service-title text-center py-2">
-                <h2 class="font-title fs-1 fw-bold">Skills & Tools</h2>
-                <h5 class="custom-font">Technologies, abilities, and tools that I expertise: </h5>
-              </div>
-            </div>  
-          </div>
-
-          <!--col and row for content-->
-          <div class="row text-center">
-            <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                 <div class="icon my-3 text-danger fs-2">
-                   <i class="fab fa-html5"></i>
-                   <i class="fab fa-css3-alt"></i>
-                   <i class="fab fa-bootstrap"></i>
-                   <i class="fab fa-sass"></i>
-                   <i class="fab fa-js"></i>
-                   <i class="fab fa-react"></i>
-                   <i class="fab fa-php"></i>
-                 </div>
-                 <h3 class=" custom-font fs-4 py-1 text-dark">Web Development</h3>
-                 <p class="text-muted"></p>
+            <div class="progress">
+              <span class="skill fs-6">Computer Graphics</span>
+              <div class="icon text-danger fs-4">
+                <i class="icon-cplusplus"></i>
+                <i class="icon-csharp"></i>
+                <i class="icon-unity"></i>
+            </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                 <div class="icon my-3 text-danger fs-2">
+     
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill fs-6">Programming Languages </span>
+                <div class="icon text-danger fs-4">
                   <i class="fab fa-java"></i>
                   <i class="fab fa-python"></i>
-                 
-                 </div>
-                 <h3 class="custom-font fs-4 py-1 text-dark">Programming languages</h3>
-                 <p class="text-muted"></p>
-              </div>
+                  <i class="icon-cplusplus"></i>
+                  <i class="fab fa-php"></i>
+                  
+                <i class="icon-csharp"></i>
+                  </div>
             </div>
-            
 
-            <div class="col-md-6 col-lg-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded bg-white">
-                 <div class="icon my-3 text-danger fs-2">
-                  <i class="fab fa-github"></i>
-                  <i class="fab fa-git-alt"></i>
-                  <i class="fas fa-terminal"></i>
-                 </div>
-                 <h3 class="custom-font fs-4 py-1 text-dark">Utilities & Tools</h3>
-                 <p class="text-muted"></p>
-              </div>
+            <div class="progress">
+              <span class="skill fs-6">Utilities & Tools</span>
+              <div class="icon text-danger fs-4">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-git-alt"></i>
+                <i class="fas fa-terminal"></i>
+                </div>
             </div>
           </div>
 
+        </div>
 
-            <!--second part-->
-          <!--center title-->
-          <div class="row"><!--center contentrow-->
-            <div class="col-lg-8">
-              <div class="service-title text-left py-4">
-                <h2 class="font-title fw-bold mb-3 text-left">Currently Working on:</h2>
-                <p class="custom-font"> Improving my skills & building portfolios. Check out my repositories on my <span> <a href="https://github.com/muhmp"  target" target="_blank" class="text-danger text-decoration-none">Github</a></span></p>
-              </div>
-            </div>  
-          </div>
       </div>
-    </section>
-  <!--service part end-->
+    </section><!-- End Skills Section -->
 
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
 
-            <!--projects section-->
-            <section class="projects py-5 my-5" id="portfolio">
-              <div class="container my-5">
-
-                <div class="title text-center">
-                    <h2 class="font-title fs-1 fw-bold">Projects & Portfolios</h2>
-                    <h5 class="custom-font">Some of things I've made </h5>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/port2.jpg" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2">Personal Website Portfolio</h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/muhmp_" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/port1.JPG" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2">Responsive Motion Transition</h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/responsive-motion-transition" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/port3.jpg" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2">Walking Character animation Data</h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/walking-motion-data" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                     
-                      </div>
-                    </div>
-                  </div>
-
-            
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/port4.jpg" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2"> Swipecar 2D Unity </h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/SwipeCar2D-Unity" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                     
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/port5.jpg" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2"> Tesla Clone</h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/tesla-clone" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                     
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 my-2">
-                    <div class="card text-center">
-                      <img src="images/Port6.jpg" class="card-img-top">
-                      <div class="card-body">
-                        <h3 class=" custom-font text-capitalize fs-5 my-2">Coding Challenge</h3>
-                        <p class="mb-4"><a href="https://github.com/muhmp/coding_challenge" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
-                     
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-            </section>
-
-
-            <!--Photography section-->
-            <section class="photo py-5 mb-5 my-5" id="photo">
-              <div class="title text-center py-5">
-                  <h2 class="font-title fs-1 fw-bold">Photography</h2>
-                  <h5 class="custom-font">My photography collections </h5>
-            
-              </div>
-              <div class="content py-2">
-                <!--images-->
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img2.jpg">
-                      </div>
-                      <div class="textBx">
-                          <h3>Fukuoka Tower | 福岡タワー
-                            <br><p>📍 Fukuoka, Japan</p>
-                          </h3> 
-                      </div>
-                  </div>
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img3.jpg">
-                      </div>
-                      <div class="textBx">
-                        <h3>Hakata Station | 博多駅
-                          <br><p>📍 Fukuoka, Japan</p>
-                        </h3>
-                      </div>
-                  </div> 
-                  
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img4.jpg">
-                      </div>
-                      <div class="textBx">
-                          <h3>Kyutech | 九州工業大学
-                            <br><p>📍 Iizuka, Japan</p>
-                          </h3> 
-                      </div>
-                  </div>
-                  
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img5.jpg">
-                      </div>
-                      <div class="textBx">
-                        <h3>Tenjin | 天神
-                          <br><p>📍 Fukuoka, Japan</p>
-                        </h3> 
-                      </div>
-                  </div> 
-                  
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img6.jpg">
-                      </div>
-                      <div class="textBx">
-                         <h3>Hakata Station | 博多駅
-                          <br><p>📍 Fukuoka, Japan</p>
-                        </h3>
-                      </div>
-                  </div> 
-                  
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img7.jpg">
-                      </div>
-                      <div class="textBx">
-                        <h3>Kyutech | 九州工業大学
-                          <br><p>📍 Iizuka, Japan</p>
-                        </h3> 
-                      </div>
-                  </div> 
-                  
-                  <div class="workBx">
-                      <div class="imgBx">
-                          <img src="images/img8.jpg">
-                      </div>
-                      <div class="textBx">
-                          <h3>Gion|祇園
-                            <br><p>📍 Kyoto, Japan</p>
-                          </h3> 
-                      </div>
-                  </div>
-
-                  <div class="workBx">
-                    <div class="imgBx">
-                        <img src="images/img9.jpg">
-                    </div>
-                    <div class="textBx">
-                        <h3>Akizuki|秋月城
-                          <br><p>📍 Akizuki, Japan</p>
-                        </h3> 
-                    </div>
-                </div>
-
-
-                <div class="workBx">
-                  <div class="imgBx">
-                      <img src="images/img10.jpg">
-                  </div>
-                  <div class="textBx">
-                      <h3> Uminonakamichi|海の中道
-                        <br><p>📍 Fukuoka, Japan</p>
-                      </h3> 
-                  </div>
-              </div>
-
-              </div>
-        </section>
-  
-      <!--8. Map and contact info-->
-      <section class="p-5 my-5 bg-white" id="contact">
-        <div class="container-lg">
-            <div class="row g-4">
-
-                <div class="row justify-content-center"><!--center contentrow-->
-                    <div class="col-lg-8">
-                      <div class="service-title text-center">
-                        <h2 class="font-title fs-1 fw-bold ">Contact Me</h2>
-                        <h5 class="custom-font py-2">Get in touch</h5>
-                      </div>
-                    </div> 
-                  </div> 
-
-                  <div class="row">
-                    <div class="col-lg-6 ">
-                      <div class="contact-info">
-
-                    <ul class="list-group list-group-flush lead-1">
-                        <li class="list-group-item">
-                            <span class="fw-bold">E-mail: </span> muhmappanyompa.306@gmail.com
-                        </li>
-                        <li class="list-group-item">
-                          <span class="fw-bold">Phone: </span> -
-                        </li>
-                        <li class="list-group-item">
-                          <span class="fw-bold">Location: </span> 福岡県福岡市
-                        </li>
-                    </ul>
-                </div>
-                    </div>
-
-
-                <!--map-->
-                <div class="col-lg">
-                  <div id="map"></div>
-                </div>
-                
-                  </div>
-
-
-            </div>
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p></p>
         </div>
-      </section>
-    <!--contact end-->
 
-
-
-
-
-      <!--9.Footer-->
-      <footer class="p-2 bg-dark text-white text-center position-relative">
-            <div class="container">
-                <p class="lead">Copyright &copy; 2021 Muhammad Mappanyompa</p>
-                <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                    <i class="bi bi-arrow-up-circle h1"></i>
-                </a>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Muhammad Mappanyompa</h4>
+              <p><em>Recent graduate majoring in computer science and computer engineering with a passion for software development, computer graphics & self-taught web development front-end part.</em></p>
+              <ul>
+                <li>Fukuoka, Japan</li>
+                <li>muhmappanyompa.306@gmail.com</li>
+              </ul>
             </div>
-      </footer>
 
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Engineering</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>九州⼯業⼤学 / Kyushu Institute of Technology, Iizuka, Japan</em></p>
+              <p>Completed a master's degree with a focus on research in Computer Graphics</p>
+            </div>
 
+            <div class="resume-item">
+              <h4>Bachelor of Computer Science</h4>
+              <h5>2014 - 2018</h5>
+              <p><em>Universitas Hasanuddin, Makassar, Indonesia</em></p>
+              <p>Completed a bachelor degree in Computer Science</p>
+            </div>
+
+            <div class="resume-item">
+              
+              <h5>2021 - Present</h5>
+              <p><em>愛和外語学院 / Aiwa Language Institute</em></p>
+              <p>Japanese Language School</p>
+            </div>
             
           </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Research Intern</h4>
+              <h5>01/2018 - 03/2018</h5>
+              <p><em>九州⼯業⼤学 / Kyushu Institute of Technology, Iizuka, Japan </em></p>
+              <ul>
+                <li>Research students in Kyushu Institute of Technology, Department of
+                  Creative Informatics led by Associate Professor Masaki Oshita</li>
+                <li>Working as a researcher in the field of interactive computer
+                  animation techniques</li>
+              </ul>
+            </div>
+              
+            <h3 class="resume-title">Languages</h3>
+              <div class="resume-item">
+                <h4>English</h4>
+                  <ul>
+                    <li>Professional Working Proficiency</li>
+                  </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Japanese</h4>
+                  <ul>
+                    <li>Limited Daily Conversation Proficiency</li>
+                    </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Arabic</h4>
+                  <ul>
+                    <li>Professional Working Proficiency</li>
+                  </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Indonesian</h4>
+                  <ul>
+                    <li>Native or Bilingual Proficiency</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-lg-12 d-flex align-item-center py-2">
+              <a href="https://github.com/muhmp/muhmp_/blob/main/Resume%20v3_Muhammad%20Mappanyompa_2021.pdf" target="_blank" class="custom-font  btn btn-primary fa-md">Complete Resume</a>
+       
+          </div>
+          </div>
         </div>
-      </section>
+      </div>
 
 
-    <!--mapbox-->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
-     <script>
-       mapboxgl.accessToken = 'pk.eyJ1IjoibXVobXAiLCJhIjoiY2t0c3NtdzRnMTFiODJvbXhrdGJ0anI2ciJ9.hmiEaFBMoDOoqK2HYbEM3g';
-           var map = new mapboxgl.Map({
-           container: 'map',
-           style: 'mapbox://styles/mapbox/streets-v11',
-           center:[130.429994, 33.623332],
-           zoom: 13,
-           });
-   </script>
-    <!--bootstrap bundle-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Projects that I am now working on and projects that I have previously worked on.</p>
+        </div>
+
+          <div class="row">
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/port2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2">Personal Website Portfolio</h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/muhmp_" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/port1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2">Responsive Motion Transition</h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/responsive-motion-transition" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/port3.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2">Walking Character animation Data</h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/walking-motion-data" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+              
+                </div>
+              </div>
+            </div>
+
+      
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/port4.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2"> Swipecar 2D Unity </h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/SwipeCar2D-Unity" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+              
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/port5.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2"> Tesla Clone</h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/tesla-clone" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+              
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 my-2">
+              <div class="card text-center">
+                <img src="assets/img/portfolio/Port6.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h3 class=" custom-font text-capitalize fs-5 my-2">Coding Challenge</h3>
+                  <p class="mb-4"><a href="https://github.com/muhmp/coding_challenge" target="_blank" class="custom-font text-danger text-decoration-none">View repo</a></p>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Photography Section ======= -->
+    <section id="photo" class="photo">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Photography</h2>
+          <p>My photography collections</p>
+        </div>
+
+
+        <div class="content py-2">
+          <!--images-->
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img2.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Fukuoka Tower | 福岡タワー
+                      <br><p>📍 Fukuoka, Japan</p>
+                    </h3> 
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img3.jpg">
+                </div>
+                <div class="textBx">
+                  <h3>Hakata Station | 博多駅
+                    <br><p>📍 Fukuoka, Japan</p>
+                  </h3>
+                </div>
+            </div> 
+            
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img4.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Kyutech | 九州工業大学
+                      <br><p>📍 Iizuka, Japan</p>
+                    </h3> 
+                </div>
+            </div>
+            
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img5.jpg">
+                </div>
+                <div class="textBx">
+                  <h3>Tenjin | 天神
+                    <br><p>📍 Fukuoka, Japan</p>
+                  </h3> 
+                </div>
+            </div> 
+            
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img6.jpg">
+                </div>
+                <div class="textBx">
+                   <h3>Hakata Station | 博多駅
+                    <br><p>📍 Fukuoka, Japan</p>
+                  </h3>
+                </div>
+            </div> 
+            
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img7.jpg">
+                </div>
+                <div class="textBx">
+                  <h3>Kyutech | 九州工業大学
+                    <br><p>📍 Iizuka, Japan</p>
+                  </h3> 
+                </div>
+            </div> 
+            
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="/assets/img/photography/img8.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Gion|祇園
+                      <br><p>📍 Kyoto, Japan</p>
+                    </h3> 
+                </div>
+            </div>
+
+            <div class="workBx">
+              <div class="imgBx">
+                  <img src="/assets/img/photography/img9.jpg">
+              </div>
+              <div class="textBx">
+                  <h3>Akizuki|秋月城
+                    <br><p>📍 Akizuki, Japan</p>
+                  </h3> 
+              </div>
+          </div>
+
+
+          <div class="workBx">
+            <div class="imgBx">
+                <img src="/assets/img/photography/img10.jpg">
+            </div>
+            <div class="textBx">
+                <h3> Uminonakamichi|海の中道
+                  <br><p>📍 Fukuoka, Japan</p>
+                </h3> 
+            </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Get in touch</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>福岡県福岡市東区原田１丁目４２</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>muhmappanyompa.306@gmail.com</p>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11409.082215706247!2d130.4327939021267!3d33.61748650986396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35418fb6233b569b%3A0x4373d7bdbdcd8a3!2sHarada%2C%20Higashi%20Ward%2C%20Fukuoka%2C%20812-0063%2C%20Japan!5e0!3m2!1sen!2sbg!4v1641194463642!5m2!1sen!2sbg" width=100% height=290px style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2021 <strong><span> Muhammad Mappanyompa</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
