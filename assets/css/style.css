@@ -155,7 +155,7 @@ h6 {
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 14px;
 }
 .nav-menu a i,
 .nav-menu a:focus i {
@@ -968,7 +968,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 10px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -1090,4 +1090,32 @@ section {
 
 .copyright {
   font-size: 10px;
+}
+
+.space {
+  padding: 0 0 0 60px;
+
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.space2 {
+  padding: 0 0 0 60px;
+  margin-left: 0px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.social-media {
+  padding-bottom: 1.5rem;
+}
+
+.space3 {
+  padding-bottom: 1px;
+  font-weight: 600;
+  margin-top: 2px;
 }
